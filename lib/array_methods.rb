@@ -23,34 +23,6 @@ def find_max_value(array)
     return try 
 end
 
-# def find_max_value(array)
-#   i=0 
-#   try = array[0]
-  
-#   loop do 
-    
-#     if try < array[i]
-#       try = array[i]
-#       i+=1
-#     end
-    
-#     if i>array.size 
-#         break
-#     end 
-    
-#   end 
-    
-#     return try 
-# end
-
-  # example array [2, 5, 3, 13, 1]
-  # try = array[0]
-  # if try < array[i]
-    # try = array[i]
-    
-    
-    
-
 def find_min_value(array)
   # Add your solution here
 end
