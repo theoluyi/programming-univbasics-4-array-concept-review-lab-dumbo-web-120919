@@ -18,7 +18,7 @@ def find_max_value(array)
   # try = array[0]
   # if try < array[i]
     # try = array[i]
-    if 
+    if i>array.size 
 end
 
 def find_min_value(array)
