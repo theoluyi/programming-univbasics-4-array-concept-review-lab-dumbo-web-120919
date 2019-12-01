@@ -12,20 +12,13 @@ def find_element_index(array, value_to_find)
 
 
 def find_max_value(array)
-  (0...array.length).each do |i|
   try = array[0]
   
+  (0...array.length).each do |i|
     if try < array[i]
       try = array[i]
-      i+=1
     end
-    
-    if i>array.size 
-        break
-    end 
-    
   end 
-    
     return try 
 end
 
