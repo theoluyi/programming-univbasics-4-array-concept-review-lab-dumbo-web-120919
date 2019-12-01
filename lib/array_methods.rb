@@ -13,7 +13,7 @@ def find_element_index(array, value_to_find)
 
 
 def find_max_value(array)
-  for i in 
+  loop 
   # example array [2, 5, 3, 13, 1]
   # try = array[0]
   # if try < array[i]
