@@ -21,7 +21,14 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Add your solution here
+  try = array[0]
+  
+  (0...array.length).each do |i|
+    if try > array[i]
+      try = array[i]
+    end 
+  end 
+  return try
 end
 
 
