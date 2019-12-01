@@ -11,6 +11,26 @@ def find_element_index(array, value_to_find)
 # end
 
 
+def find_max_value(array)
+  for 
+  i=0 
+  try = array[0]
+  
+  loop do 
+    
+    if try < array[i]
+      try = array[i]
+      i+=1
+    end
+    
+    if i>array.size 
+        break
+    end 
+    
+  end 
+    
+    return try 
+end
 
 # def find_max_value(array)
 #   for 
