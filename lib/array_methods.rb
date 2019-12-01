@@ -10,9 +10,14 @@ def find_element_index(array, value_to_find)
 #    nil 
 # end
 
+
+
 def find_max_value(array)
-  
-  # Add your solution here
+  for i in 
+  # example array [2, 5, 3, 13, 1]
+  # try = array[0]
+  # if try < array[i]
+    # try = array[i]
 end
 
 def find_min_value(array)
