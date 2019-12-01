@@ -18,17 +18,19 @@ def find_max_value(array)
   try = array[0]
   
   loop do 
+    
     if try < array[i]
       try = array[i]
       i+=1
-    end 
+    end
+    
     if i>array.size 
         break
     end 
+    
   end 
     
     return try 
-    
 end
 
   # example array [2, 5, 3, 13, 1]
