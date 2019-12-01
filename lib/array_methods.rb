@@ -1,14 +1,14 @@
-def find_element_index(array, value_to_find) 
-  array.index(value_to_find) 
-  end
+# def find_element_index(array, value_to_find) 
+#   array.index(value_to_find) 
+#   end
 
-# def find_element_index(array, value_to_find)
-#   array.length.times do |index|
-#     if array[index]==value_to_find
-#       index 
-#     end 
-#    nil 
-# end
+def find_element_index(array, value_to_find)
+(0...array.length).each do |index|
+    if array[index]==value_to_find
+      index 
+    end 
+    nil 
+end
 
 
 def find_max_value(array)
@@ -56,6 +56,8 @@ end
 
 
 
+
+# ATTEMPT 1
 # def find_element_index(array, value_to_find)
 #   counter = 0
   
@@ -66,7 +68,8 @@ end
 #     return nil
 
 #   }
- 
+
+# ATTEMPT 2
 # def find_element_index(array, value_to_find)
   
 #   counter = 0
@@ -78,4 +81,14 @@ end
 #   end 
 #   return nil
   
+# end
+
+
+# ATTEMPT 3 
+# def find_element_index(array, value_to_find)
+#   array.length.times do |index|
+#     if array[index]==value_to_find
+#       index 
+#     end 
+#    nil 
 # end
