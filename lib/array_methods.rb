@@ -3,11 +3,15 @@
 #   end
 
 def find_element_index(array, value_to_find)
-(0...array.length).each do |index|
+  (0...array.length).each do |index|
     if array[index]==value_to_find
       index 
     end 
-    nil 
+    
+  end
+  
+  
+    nil
 end
 
 
