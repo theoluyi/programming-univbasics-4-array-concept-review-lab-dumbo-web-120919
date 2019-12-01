@@ -5,7 +5,7 @@
 def find_element_index(array, value_to_find)
   (0...array.length).each do |i|
     if array[i]==value_to_find
-      return i 
+      i 
     end
   end
 
