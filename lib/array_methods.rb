@@ -27,7 +27,7 @@ def find_max_value(array)
     if i>array.size 
       break
     end 
-    try 
+    return try 
 end
 
   # example array [2, 5, 3, 13, 1]
