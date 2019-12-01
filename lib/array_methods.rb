@@ -21,9 +21,9 @@ def find_max_value(array)
     if try < array[i]
       try = array[i]
       i+=1
-      if i>array.size 
+    end 
+    if i>array.size 
         break
-      end 
     end 
   end 
     
